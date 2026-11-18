@@ -9,7 +9,7 @@
   ![Language](https://img.shields.io/badge/language-C%2B%2B20-334155)
   ![Signing](https://img.shields.io/badge/code%20signing-pending-f59e0b)
 
-  [Características](#-qué-hace) · [Compilar](#-compilación) · [Seguridad](#-seguridad-y-limitaciones) · [Colaborar](#-contribuir)
+  [Características](#-qué-hace) · [Compilar](#-compilación) · [Seguridad](#-seguridad-y-limitaciones) · [Code signing policy](CODE_SIGNING_POLICY.md) · [Colaborar](#-contribuir)
 </div>
 
 ---
@@ -77,7 +77,7 @@ Los comandos `cl` requieren una consola de desarrollador de Visual Studio config
 - **Windows Smart App Control:** las compilaciones actuales no tienen una firma de código confiable. No se recomienda desactivar protecciones del sistema para ejecutarlas.
 - **Funcionamiento local:** la aplicación no incorpora funciones previstas de telemetría ni carga automática de archivos; cualquier nueva contribución debe respetar esta característica.
 
-Si descubres una vulnerabilidad, consulta [SECURITY.md](SECURITY.md). Para política de firmas y estado de la solicitud a SignPath Foundation, consulta [CODE_SIGNING_POLICY.md](CODE_SIGNING_POLICY.md).
+Si descubres una vulnerabilidad, consulta [SECURITY.md](SECURITY.md). Para conocer los responsables, el proceso de firma y el estado de la solicitud a SignPath Foundation, consulta [Code signing policy](CODE_SIGNING_POLICY.md).
 
 ## 🧱 Estructura del proyecto
 
