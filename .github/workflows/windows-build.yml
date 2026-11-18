@@ -1,0 +1,37 @@
+name: Windows x64 build and phasor tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-2022
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v4
+      - name: Build OCC editor (unsigned)
+        shell: cmd
+        run: call Compilar.bat /quiet
+      - name: Configure MSVC for test
+        uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: x64
+      - name: Compile phasor model test
+        shell: cmd
+        run: cl /nologo /utf-8 /std:c++20 /EHsc /W4 tests\test_phasor_model.cpp /Fe:dist\test_phasor_model.exe
+      - name: Run phasor model test
+        shell: cmd
+        run: dist\test_phasor_model.exe
+      - name: Upload unsigned test artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: OCCEdit_v7_UNSIGNED
+          path: dist/OCCEdit_v7_x64.exe
+          if-no-files-found: error
+          retention-days: 7

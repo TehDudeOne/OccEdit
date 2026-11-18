@@ -1,0 +1,14 @@
+<svg width="620" height="315" viewBox="0 0 620 315" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Example phasor: L2-E 115 volts at -120 degrees, pointing down-left">
+  <rect width="620" height="315" rx="20" fill="#0f172a"/>
+  <circle cx="208" cy="150" r="112" fill="none" stroke="#334155" stroke-width="1.7"/>
+  <circle cx="208" cy="150" r="75" fill="none" stroke="#334155" stroke-width="1.2" stroke-dasharray="4 5"/>
+  <path d="M60 150H355M208 18V282" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4 6"/>
+  <path d="M208 150L152 247" stroke="#2dd4bf" stroke-width="5.5" stroke-linecap="round"/>
+  <path d="M152 247l3-20 16 9z" fill="#2dd4bf"/>
+  <circle cx="208" cy="150" r="5" fill="#f8fafc"/>
+  <text x="402" y="91" fill="#e2e8f0" font-family="Segoe UI, sans-serif" font-weight="bold" font-size="24">Fasor de ejemplo</text>
+  <text x="402" y="137" fill="#2dd4bf" font-family="Consolas, monospace" font-size="21">V L2-E</text>
+  <text x="402" y="173" fill="#cbd5e1" font-family="Consolas, monospace" font-size="21">115 V</text>
+  <text x="402" y="209" fill="#cbd5e1" font-family="Consolas, monospace" font-size="21">-120°</text>
+  <text x="402" y="249" fill="#94a3b8" font-family="Segoe UI, sans-serif" font-size="13">Vista conceptual · no es captura</text>
+</svg>

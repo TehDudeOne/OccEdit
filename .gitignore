@@ -1,0 +1,22 @@
+# Build outputs and Visual Studio diagnostics
+dist/
+Debug/
+Release/
+x64/
+.vs/
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.log
+*.tmp
+
+# Real OCC files may contain customer/device/site and measurement information.
+*.occ
+
+# Local/editor metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
