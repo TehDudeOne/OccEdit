@@ -32,6 +32,8 @@
 
 ### Vista fasorial: corrección de la v7
 
+**Estado:** el mantenedor confirmó en Windows que el problema de visualización de fasores ya está resuelto. La extracción tiene pruebas automatizadas; la visualización de la interfaz completa y la integridad de los OCC todavía requieren pruebas de integración reproducibles.
+
 La revisión v7 corrige la extracción de filas cuya primera columna está vacía por agrupación visual. En este ejemplo de **datos ilustrativos**, el fasor `V L2-E = 115 V ∠ −120°` debe dibujarse hacia abajo e izquierda, aunque la celda «Directo» solamente aparezca en la primera fila.
 
 <div align="center">
